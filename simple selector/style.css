@@ -1,0 +1,29 @@
+/* universe selectors*/
+*{
+    margin: 10px;
+    background-color: aqua;
+}
+
+/*Tag selectors*/
+p{
+    color: violet;
+}
+
+/*class selectors*/
+.para{
+    color: blue;
+}
+/*Id selectors*/
+#heading{
+    color: yellowgreen;
+}
+
+/*Grouping selectos*/
+/*.para, #heading{
+    color: darkorange;
+}*/
+
+/*selects only p tags with class para*/
+p.para{
+    color:  red;
+}

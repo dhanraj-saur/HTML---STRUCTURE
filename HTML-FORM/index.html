@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML-FORM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>HTML FORM</h1>
+    <form action="#" method="post"></form>
+    <div class="form-field">
+        <div class="title">
+            <label  for="email">Email Adress</label>
+        </div>
+        <input class="form-control" type="email" placeholder="email adress here" required/>
+    </div>
+    <div>
+        <div class="title">
+            <label  for="mob">Phone Number</label>
+        </div>
+        <input class="form-control" type="text" name="mob" pattern="^[6-9]\d{9}$" maxlength="10"/>
+    </div>
+    <div>
+        <div class="title">
+            <label  for="fname">Full Name</label>
+        </div>
+        <input class="form-control" type="fname"name="fname" placeholder="Full name"/>
+        <input class="form-control" type="text" name="lname" placeholder="Last Name"/>
+    </div>
+    <div>
+       <div class="title">
+           <label  for="Adress">Address</label>    
+       </div>
+        <input class="form-control" type="text" name="adress" placeholder="street adress"><br>
+        <input class="form-control" type="text" name="adress" placeholder="office, home"/>
+    </div>
+    <div>
+        <div class="title" >
+            <label for="city">City</label>
+        </div>
+        <input class="form-control" type="city" name="city"/>
+        <select name="state" id="state"/> 
+            <option value="Other">Other</option>
+            <option value="Bihar">Bihar</option>
+            <option value="uttarpredesh">uttarpredesh</option>
+            <option value="jharkhand">jharkhand</option>
+            <option value="goa">Goa</option>
+            <option value="assam">Assam</option>
+            <option value="delhi">Delhi</option>
+        </select>
+        <input class="form-control" type="number" placeholder="zip" minlength="1000" maxlength="10000">
+    </div>
+    <div>
+        <div class="title">
+            <label  for="radio-tech">what radio technology are using here</label>
+        </div>
+        <input class="form-control" type="checkbox" name="net-1"/> 2G
+        <input class="form-control" type="checkbox" name="net-2"/> 3G
+        <input class="form-control" type="checkbox" name="net-3"/> 4G
+        <input class="form-control" type="checkbox" name="net-4"/> 5G
+    </div>
+    <div>
+        <div class="title">
+            <label  for="data-use">How much data use the monthly?</label>
+        </div>
+        
+        <input class="form-control" type="radio" name="net"/>1Gb
+        <input class="form-control" type="radio" name="net"/>2Gb
+    </div>
+    <div>
+       <div class="title">
+           <label  for="Subcription">Subcription duration</label>
+       </div>
+        <input class="form-control" type="date" name="date"/>
+        <input class="form-control" type="month" name="month"/>
+       <div class="title">
+           <label class="title" for="to">To</label>
+       </div>
+        <input class="form-control" type="date" name="date"/>
+        <input class="form-control" type="month" name="month">
+    </div> <br> 
+        <input class="form-control" type="submit" name="submit"/>
+        <input class="form-control" type="Reset" name="Reset"/>
+    </div>
+</div>
+</body>
+
+</html>

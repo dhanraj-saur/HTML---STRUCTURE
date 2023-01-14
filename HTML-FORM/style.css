@@ -1,0 +1,29 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.form-control{
+    width: 30%;
+    height: 25px; 
+    border-radius: 3px;
+    color: #ff0"";
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: rgba(red, green, blue, alpha);
+}
+
+select{
+    width: 25%;
+    height: 31px;
+}
+.title{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 6px 0px;
+}
+.form-field{
+    padding: 10px;
+    margin: 16px;
+}

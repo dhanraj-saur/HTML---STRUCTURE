@@ -1,0 +1,77 @@
+/*decendant selectors(space)*/
+/*div .para{
+    color: red;
+}
+
+.container #para-1{
+    color: blue;
+}
+
+ul li{
+    background-color: purple;
+
+}*/
+
+/*child selectors(>)*/
+/* div > p {
+    color: red
+} 
+
+span > p {
+    color: green;
+}*/
+
+/* Ajustend sibling selector(+) */
+div + p{
+    color: coral;
+}
+
+/* General sibiling selectors */
+div ~ p{
+    color: orangered;
+}
+
+/* pseudo class selector */
+.btn{
+    background-color: yellow;
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+.btn:hover{
+    color: red;
+    background-color: green;
+    cursor: pointer;
+}
+
+/* unvisited link */
+a:link{
+    color: red;
+}
+/* visited link */
+a:visited{
+    color: darkorchid;
+}
+a:hover{
+    color: green;
+}
+.link:active{
+    color: orangered;
+}
+
+/* pseudo elements selector */
+p::first-line{
+    color: black;
+}
+
+p::first-letter{
+    color: green;
+}
+
+p::before{
+    content: url(../../project\ 1/image/download.png);
+}
+
+p::after{
+    content: "--------after--------";
+}
